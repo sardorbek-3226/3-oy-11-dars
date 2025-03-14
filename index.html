@@ -1,0 +1,409 @@
+
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SaaSto</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./src/svg/logo.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              inter: ["Inter ", "sans-serif"],
+              poppins: ["Poppins", "sans-serif"],
+            },
+            colors: {
+              customBg: "#FFF8F2",
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="font-poppins max-w-[1366px] mx-auto  ">
+    <header class="max-w-[1366px] mx-auto bg-[#FFF8F2] h-full  relative">
+      <img class="z-10 absolute image left-[65px] top-[100px]" src="./src/image/Vector1.png" />
+      <img
+        class="lg:block hidden images absolute top-[150px] w-[120px] left-[220px]"
+        src="/src/image/soat.png"
+        
+      />
+      <img
+        src="./src/image/tel 1.png"
+        class="z-10  lg:block hidden rasm absolute w-[300px] top-[255px] left-[15px]"
+      />
+      <img
+        src="./src/image/tel2.png"
+        class="z-10 lg:block hidden rasm absolute w-[350px] right-0 top-[250px]"
+      />
+      <img
+        src="./src/image/Vector5.png"
+        class="z-10 lg:block hidden rasm absolute top-[390px] w-[110px] right-[390px]"
+      />
+      <img
+        src="./src/image/Vector6.png"
+        class="z-10 lg:block hidden rasm absolute top-[300px] w-[110px] right-[850px]"
+      />
+      <img
+        src="./src/image/jadval.png"
+        class="z-10 lg:block hidden rasm absolute top-[300px] w-[110px] right-[310px]"
+      />
+      <img
+        src="./src/image/Vector4.png"
+        class="z-10 lg:block hidden rasm absolute top-[540px] w-[90px] right-[850px]"
+      />
+      <img
+        src="./src/image/Vector3.png"
+        class="z-10 lg:block hidden rasm absolute top-[75px] right-[0px]"
+      />
+      <img
+        src="./src/image/Vector2.png"
+        class="z-10 lg:block hidden rasm absolute top-[140px] right-[190px]"
+      />
+      <div class="container relative m-auto px-10 py-5">
+        <nav class="flex justify-between items-center">
+          <a href="/">
+            <img
+              class="max-[1024px]:w-[120px] max-[768px]:w-[150px]"
+              src="./src/image/logo.svg"
+              alt="logo"
+            />
+          </a>
+          <div
+            class="flex items-center gap-[100px] max-[1024px]:gap-[10px] max-[768px]:hidden"
+          >
+            <ul
+              class="flex items-center gap-[50px] max-[1280px]:gap-[30px] max-[1024px]:gap-[20px] max-[768px]:"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="text-[18px] text-[#1c0e0d] font-normal hover:text-[#ff553e] max-[1280px]:text-[15px]"
+                >
+                  Demos
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-[18px] text-[#1c0e0d] font-normal hover:text-[#ff553e] max-[1280px]:text-[15px]"
+                >
+                  Features
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-[18px] text-[#1c0e0d] font-normal hover:text-[#ff553e] max-[1280px]:text-[15px]"
+                >
+                  Pricing
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-[18px] text-[#1c0e0d] font-normal hover:text-[#ff553e] max-[1280px]:text-[15px]"
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+            <div class="flex items-center gap-[35px] max-[1024px]:gap-[15px]">
+              <a
+                href="/"
+                class="text-[#ff553e] border-[1px] border-transparent font-medium hover:border-[#ff553e] p-[10px] px-[25px] rounded-[50px] transition-all transform"
+              >
+                Login
+              </a>
+              <a
+                href="/"
+                class="bg-[#ff553e] p-[10px] px-[25px] rounded-[50px] border-[#ff553e] text-white border-[1px] hover:bg-transparent hover:text-[#ff553e] transition-all"
+              >
+                Sign up
+              </a>
+            </div>
+          </div>
+          <button class="bg-transparent hidden max-[768px]:block">
+            <i class="fa-solid fa-bars fa-beat-fade text-[30px]"></i>
+          </button>
+        </nav>
+
+        <div class="main py-[120px] bg-inherit">
+          <div
+            class="flex flex-col h-full items-center text-center justify-between gap-[25px]"
+          >
+            <h1
+              class="z-20 sm:w-[600px] text-[#1C0E0D] font-[700] text-[28px] sm:text-[48px] mx-auto"
+            >
+              A collaborative Time Tracking that you Need
+            </h1>
+            <p class="sm:w-[500px] text-[#664B48]">
+              An enim nullam tempor sapien gravida donec enim ipsum porta justo
+              congue magna at pretium purus pretium ligula
+            </p>
+            <a
+              class="m-auto bg-[#ff553e] py-[14px] px-[30px] transition-all rounded-[50px] border-[#ff553e] text-white border-[1px] hover:bg-transparent hover:text-[#ff553e] cursor-pointer"
+              >Start 14 Days Trial</a
+            >
+            
+          </div>
+        </div>
+      </div>
+       <div
+        class="z-99999 absolute h-[100px] w-full max-md:px-[100px] max-md:flex-col gap-[100px] flex justify-between items-center px-[200px] pt-[94px] pb-[768px] bg-[#FFFFFF] shadow-lg"
+      >
+        <div class="text-center flex flex-col justify-center">
+          <h1 class="text-[40px] font-[700] max-md:text-[30px]">15k+</h1>
+          <p class="text-[#8C8C8C]">Active User</p>
+        </div>
+        <div class="text-center flex flex-col justify-center">
+          <h1 class="text-[40px] font-[700] max-md:text-[30px]">30k+</h1>
+          <p class="text-[#8C8C8C]">Active User</p>
+        </div>
+        <div class="text-center flex flex-col justify-center">
+          <h1 class="text-[40px] font-[700] max-md:text-[30px]">10k+</h1>
+          <p class="text-[#8C8C8C]">Active User</p>
+        </div>
+        <img
+          src="./src/image/Vector 23.png"
+          class="z-10 lg:block hidden images absolute top-[210px] w-[150px] left-[10px]"
+        />
+        <div class="border border-gray-700  border-dashed w-full absolute left-0 top-[200px]"></div>
+       </div>
+    </header>
+
+    <main class="relative main bg-[#FFF8F2]">
+      <div class="text-center pt-[300px]">
+        <h1 class="text-[#18063C] top-[-500px] z-50 font-poppins text-[45px] font-[600]">
+          Some excellent features for you
+        </h1>
+        <img src="./src/image/raketa.png" class="lg:block hidden rasm absolute z-0 right-[150px] top-[300px] w-[169px]">
+        <p
+          class="text-[#666666] py-[50px] z-20 leading-8 ml-[40px] font-inter font-[400] text-[18px]"
+        >
+          An enim nullam tempor sapien gravida donec enim ipsum porta justo
+          congue magna at pretium purus pretium ligula
+        </p> 
+      </div>
+
+      <div class="flex justify-center gap-[32px] max-lg:flex-col">
+        <div class="bg-[#70D0DC] inline-block p-[28px] pr-[66px] rounded-[48px]">
+          <img
+            src="./src/image/Task Lists.png" class="hover:scale-75 transition duration-300 p-[20px] border-[1px] border-[#FCFEFE] rounded-[24px] bg-[#B7E8EE]"
+          />
+          <h1 class="font-[600] text-[28px] text-[#FFFFFF]">Preset List of Task</h1>
+          <p class="text-[#E2F6F8] font-[400] text-[18px] max-w-[290px]">Make bill payments easily using the wallet app</p>
+        </div>
+
+        <div class="bg-[#7562E0] inline-block p-[28px] pr-[66px] rounded-[48px]">
+          <img
+            src="./src/image/bell 1.png" class="hover:scale-75 p-[20px] border-[1px] border-[#FCFEFE] rounded-[24px] bg-[#BAB0F0]"
+          />
+          <h1 class="font-[600] text-[28px] text-[#FFFFFF]">Reminder of Task</h1>
+          <p class="text-[#E2F6F8] font-[400] text-[18px] max-w-[290px]">Make bill payments easily using the wallet app</p>
+        </div>
+        <div class="bg-[#FA865F] inline-block p-[28px] pr-[66px] rounded-[48px]">
+            <img
+              src="./src/image/agenda 1.png" class="hover:scale-75 p-[20px] border-[1px] border-[#FCFEFE] rounded-[24px] bg-[#FDC3AF]"
+            />
+            <h1 class="font-[600] text-[28px] text-[#FFFFFF]">Complecation Report</h1>
+            <p class="text-[#E2F6F8] font-[400] text-[18px] max-w-[290px]">Make bill payments easily using the wallet app</p>
+          </div>
+        </div> 
+
+         <section class="mt-[50px] mb-[50px]">
+          <div class="max-lg:flex flex-wrap  flex justify-evenly bg-white items-center">
+            <div>
+               <!-- <img src="./src/image/noyabr.png" alt="telefon">
+              <img src="./src/image/true.png" class="absolute w-[100px] top-[-30px] left-[150px]" alt="true">
+              <img src="./src/image/Content.png" alt="content" class="absolute w-[80px] top-[100px] bg-[#fff] rounded-[15px] left-[-40px]">
+              <img src="./src/image/kit2.png" class="absolute w-[200px] top-[140px] left-[90px]" alt="kit">
+              <img src="./src/image/rasm.png" class="absolute w-[250px] top-[360px] left-[70px]" alt="rasm">  -->
+              <img src="./src/image/group.png" class="w-[700px] max-md:w-[500px] hover:scale-75 transition-transform 3s" alt="group">
+            </div>
+
+            <div class="flex max-md:flex flex-col">
+              <div class="mx-11">
+                <h1 class="font-[600] max-w-[500px] text-[40px]  z-20">Analytics & Reporting Brackdown</h1>
+                <img src="./src/image/vector6.png" class="absolute top-[150px] right-[150px] z-10" alt="6">
+              <p class="text-[18px] text-[#404040] max-w-[500px]">An enim nullam tempor sapien gravida donec enim ipsum porta justo  congue magna at pretium purus pretium ligula </p>
+              </div>
+              <div class="flex gap-5 mt-5 text-[#404040]">
+              <img
+              src="./src/image/timer.svg" class="hover:translate-x-5 transition-transform 3s delay-150 border-[1px] border-[#FCFEFE] rounded-xl p-3 bg-[#FA855C]"
+                        />
+              <div class="max-w-[300px]">
+                <h2 class="max-sm:text-[20px] font-[600]">Automatic event tracking</h2>
+              <p class="">Time Tracking is never been easier.
+Just let the stopwatch run</p>
+              </div>
+                         </div>
+              <div class="flex gap-5 mt-5 text-[#404040]">
+              <img
+              src="./src/image/Frame.svg" class="hover:translate-y-4 transition-transform 3s delay-250 border-[1px] border-[#FCFEFE] rounded-xl p-3 bg-[#7AD6E1]"
+                        />
+              <div class="max-w-[300px]">
+                <h2 class="font-[600]">Customizable dashboard</h2>
+              <p  class="">Time Tracking is never been easier.
+Just let the stopwatch run</p>
+              </div>
+                         </div>
+              <div class="flex gap-5 mt-5 text-[#404040]">
+              <img
+              src="./src/image/tic.svg" class="hover:translate-x-3 transition-transform 3s delay-300 border-[1px] border-[#FCFEFE] rounded-xl p-3 bg-[#FFC954]"
+                        />
+              <div class="max-w-[300px]">
+                <h2 class="font-[600]">Statistics retroactively</h2>
+              <p class="">Time Tracking is never been easier.
+Just let the stopwatch run</p>
+              </div>
+                         </div>
+            </div>
+          </div>
+        </section> 
+        <section class="p-[50px] mx-auto">
+          <div class="">
+            <h1 class=" mx-auto text-[36px] font-[600] max-w-[550px] max-md:text-[22px]">How our Tracker work for you</h1>
+            <p class="mx-auto text-[16px] font-[400] text-[#404040] max-md:text-[10px]">An enim nullam tempor sapien gravida donec enim ipsum porta justo  congue magna at pretium purus pretium ligula </p>
+          </div>
+         <div class="mt-[50px]">
+          <div class="flex gap-5 items-center mt-5 max-md:ml-[10px]">
+            <div class=" bg-[#5BC17F] inline-block rounded-xl #5BC17F">
+              <img src="./src/image/45minut.png" class="p-3 #5BC17F" alt="soat">
+            </div>
+            <div>
+              <h3 class="text-black text-[30px] max-lg:text-[15px]">Time Tracking</h3>
+              <p class="pt-3">Time Tracking is never been easier.
+                Just let the stopwatch run</p>
+            </div>
+          </div>
+          </div>
+          <div class="flex gap-5 items-center ml-[150px] mt-[60px] max-sm:ml-[10px] max-md:ml-[20px]">
+            <div class=" bg-[#FE6292] inline-block mt-5 rounded-xl #5BC17F">
+              <img src="./src/image/qum soat.png" class="p-3 #5BC17F" alt="soat">
+            </div>
+            <div>
+              <h3 class="text-black text-[30px] max-lg:text-[15px]">Expenses</h3>
+              <p class="pt-3">Time Tracking is never been easier.
+                Just let the stopwatch run</p>
+            </div>
+          </div>
+          </div>
+          <div class="flex gap-5 items-center mt-[50px] ml-[300px] max-sm:ml-[10px] max-md:ml-[100px]">
+            <div class=" bg-[#6B72FF] inline-block mt-5 rounded-xl #5BC17F">
+              <img src="./src/image/wallet (2) 1.png" class="p-3 #5BC17F" alt="soat">
+            </div>
+            <div>
+              <h3 class="text-black text-[30px] max-lg:text-[15px] "> Budget controlling</h3>
+              <p class="pt-3">Time Tracking is never been easier.
+                Just let the stopwatch run</p>
+            </div>
+          </div>
+         </div>
+         <div class="relative ">
+         <img src="./src/image/3D Image.png" class="max-lg:hidden absolute top-[-650px] left-[1050px]" alt="3d">
+          <img src="./src/image/lupa.png" width="150px" class="absolute top-[-315px] right-[1150px]" alt="lupa">
+          <img src="./src/image/pastga.png" class="max-lg:hidden absolute top-[-275px] left-[700px]" alt="pastga">
+          <img src="./src/image/pushti.png" class="max-lg:hidden absolute top-[-150px] left-[222px]" alt="pushti">
+         </div>
+        </section>
+        <section class="flex justify-evenly items-center mt-[50px]  max-sm:flex-wrap">
+          <div class="mt-5 max-lg:flex flex-wrap mx-10">
+            <h1 class="text-[32px] mb-5 max-w[350px]">Get it now for free</h1>
+            <p class="text-[20px] mb-15  max-w[250px] ">We are offering free debit cards once  you sing <br> up and order a card. we wont chargeyou for our debit card.</p>
+
+           <div class="max-lg:flex-wrap max-sm:flex flex-wrap max-sm:ml-[50px] ">
+            <a
+            href="/"
+            class="bg-[#ff553e] inline-block mt-10  p-[10px] px-[25px] rounded-[50px] border-[#ff553e] text-white border-[1px] hover:bg-transparent hover:text-[#ff553e] transition-all"
+          >Download on the
+          App Store
+          <a
+                href="/"
+                class="text-[#ff553e] border-[1px] border-transparent font-medium hover:border-[#ff553e] p-[10px] px-[25px] rounded-[50px] transition-all transform"
+              >Get it on
+              Google Play
+           </div>
+          </div>
+          <img src="./src/image/noyabr.png" width="250px" alt="">
+          <div class="relative">
+            <img src="./src/image/chap.png" width="205px" class="max-lg:hidden absolute right-[960px] top-[-555px]" alt="qol">
+            <img src="./src/image/ong.png" width="200px" class="max-lg:hidden absolute left-[200px] top-[-450px]" alt="">
+          </div>
+        </section>
+      </main>
+
+
+      <footer>
+        <div class="flex justify-center gap-[70px] items-center">
+          <a href="#">
+            <img src="./src/image/logo.svg" alt="logo">
+          </a>
+          <ul class="flex items-center gap-[50px] max-[1280px]:gap-[30px] max-[1024px]:gap-[20px] max-[768px]:">
+              <li>
+                <a
+                  href="#"
+                  class="text-[18px] text-[#1c0e0d] font-normal hover:text-[#ff553e] max-[1280px]:text-[15px]"
+                >
+                  Demos
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-[18px] text-[#1c0e0d] font-normal hover:text-[#ff553e] max-[1280px]:text-[15px]"
+                >
+                  Features
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-[18px] text-[#1c0e0d] font-normal hover:text-[#ff553e] max-[1280px]:text-[15px]"
+                >
+                Pricing
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-[18px] text-[#1c0e0d] font-normal hover:text-[#ff553e] max-[1280px]:text-[15px]"
+                >
+                Contact
+                </a>
+              </li>
+            </ul>
+            <ul class="flex gap-10 max-lg:flex-wrap">
+              <li class="hover:text-[#FF553E] transition-all"><a href="/"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
+              <li class="hover:text-[#FF553E] transition-all"><a href="/"><i class="fa-brands fa-linkedin-in fa-xl"></i></a></li>
+              <li class="hover:text-[#FF553E] transition-all"><a href="/"><i class="fa-brands fa-facebook fa-xl"></i></a></li>
+              <li class="hover:text-[#FF553E] transition-all"><a href="/"><i class="fa-brands fa-twitter fa-xl"></i></a></li>
+            </ul>
+        </div>
+        <hr class="mt-5">
+        <div class="mb-[50px] flex justify-between items-center">
+          <p class="text-xl mt-5 max-md:text-[15px] hover:text-[#FF553E] transition-all ml-[50px]">Terms & condition</p>
+          <p class="text-xl mt-5 max-md:text-[15px] hover:text-[#FF553E] transition-all ">Privacy policy</p>
+          <p class="text-xl mt-5 max-md:text-[15px] hover:text-[#FF553E] transition-all mr-[50px]">All Right Reserved @ plowv.com</p>
+        </div>
+      </footer>
+    </body>
+  </html>
